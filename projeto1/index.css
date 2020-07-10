@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.pagina {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ccc;
+}
+.cabecalho {
+  background-image: url('imagens/bg-3.jpg');
+  background-size: cover;
+  height: 50vh;
+}
+.container-titulo-principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-titulo-principal h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 46px;
+  text-shadow: 3px 3px 2px #333;
+}
+.corpo-principal {
+  margin: 0 auto;
+  width: 80vw;
+  min-height: 40vh;
+  padding: 15px;
+}
+.corpo-principal section {
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+.rodape {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  color: white;
+  text-shadow: 3px 3px 2px #333;
+}
+.artigo h2 {
+  background-color: #ccc;
+  padding: 10px;
+  border-bottom: 1px solid #aaa;
+}
+.artigo p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.card-outros-artigos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-artigo {
+  position: relative;
+  flex-basis: 32%;
+}
+.card-artigo p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 10px;
+  text-transform: uppercase;
+}
+.card-artigo img {
+  width: 100%;
+  height: 100%;
+}
