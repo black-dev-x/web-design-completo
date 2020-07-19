@@ -1,0 +1,15 @@
+.info {
+  background: url('../imagens/bg_detalhe.png');
+  color: white;
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 1.4em;
+  padding: 50px;
+}
+.info .destaque {
+  text-transform: uppercase;
+}
+.info .descricao-info {
+  margin-top: 30px;
+}
