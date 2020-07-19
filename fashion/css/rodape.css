@@ -1,0 +1,11 @@
+.rodape {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: black;
+  font-size: 1.3em;
+  letter-spacing: 0.8em;
+  color: dodgerblue;
+}

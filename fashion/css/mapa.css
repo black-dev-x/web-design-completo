@@ -1,0 +1,8 @@
+.mapa {
+  height: 60vh;
+  margin-bottom: 10vh;
+}
+.mapa iframe {
+  width: 100%;
+  height: 100%;
+}

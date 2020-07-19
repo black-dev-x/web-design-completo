@@ -7,3 +7,12 @@
 .galeria img {
   width: 100%;
 }
+.galeria .marca-roupa {
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-weight: bolder;
+}
+.galeria .descricao-roupa {
+  font-size: 0.9em;
+  color: grey;
+}

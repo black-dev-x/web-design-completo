@@ -1,0 +1,12 @@
+.contato {
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contato p {
+  font-weight: bolder;
+  font-size: 1.3em;
+  text-transform: uppercase;
+}
