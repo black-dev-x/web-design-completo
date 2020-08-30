@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      .loginForm {
+        width: 50%;
+        margin: 30% auto;
+      }
+      .loginForm label {
+        display: block;
+      }
+      .loginForm button {
+        display: block;
+        width: 100%;
+        margin: 0.2em;
+      }
+      .loginForm input {
+        margin: 0.2em;
+        width: 100%;
+      }
+      .loginForm fieldset {
+        padding: 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="#" method="POST" class="loginForm">
+      <fieldset>
+        <legend>Login</legend>
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" />
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" />
+        <button type="submit" class="loginButton">Login</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
